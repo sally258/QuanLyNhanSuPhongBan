@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="801a156f509d4e4c9e819608cbcd3afd" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyNhanSuPhongBanModel.ChucVu" Width="1.5" PointX="3" PointY="7.125" />
+        <EntityTypeShape EntityType="QuanLyNhanSuPhongBanModel.NhanVien" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="QuanLyNhanSuPhongBanModel.NhanVien_ChucVu" Width="1.5" PointX="5.25" PointY="2.125" />
+        <EntityTypeShape EntityType="QuanLyNhanSuPhongBanModel.PhongBan" Width="1.5" PointX="0.75" PointY="2.125" />
+        <EntityTypeShape EntityType="QuanLyNhanSuPhongBanModel.sysdiagram" Width="1.5" PointX="5.75" PointY="5.75" />
+        <AssociationConnector Association="QuanLyNhanSuPhongBanModel.FK_NhanVien_ChucVu_ChucVu" />
+        <AssociationConnector Association="QuanLyNhanSuPhongBanModel.FK_NhanVien_ChucVu_NhanVien" />
+        <AssociationConnector Association="QuanLyNhanSuPhongBanModel.FK_NhanVien_PhongBan" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
